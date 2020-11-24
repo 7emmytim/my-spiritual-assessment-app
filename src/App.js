@@ -1,14 +1,14 @@
 import React, { useState } from 'react'
-import "../App.css"
+import "./App.css"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import ScrollToTop from './ScrollToTop'
-import Header from "./Header"
-import Assessment from "./Assessment"
-import DisplayScore from "./DisplayScore"
+import ScrollToTop from './components/ScrollToTop'
+import Header from "./components/Header"
+import Assessment from "./components/Assessment"
+import DisplayScore from "./components/DisplayScore"
 
 function App() {
 
-  const [userProfile, setUserProfile] = useState({ fName: "", christAge: "" })
+  const [userProfile, setUserProfile] = useState({ fName: "" })
   const [finalScore, setFinalScore] = useState()
   const [completed, setCompleted] = useState()
 

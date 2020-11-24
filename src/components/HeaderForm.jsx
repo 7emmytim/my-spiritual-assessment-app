@@ -24,7 +24,6 @@ const HeaderForm = ({ handleUserProfile, handleProfileSubmit }) => {
                 christianStatus === "christian" ?
                     <>
                         <Dummy />
-                        <HeaderInput handleHeaderProfile={handleHeaderProfile} type="number" name="christAge" spanValue="How Long" />
                         <Link to="/assessment">
                             <button className="btn btn-warning text-light mb-5" onClick={saveUserProfile} >CONTINUE</button>
                         </Link>
