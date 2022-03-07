@@ -1,8 +1,8 @@
-import React, { useState } from 'react'
-import "./App.css"
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-import ScrollToTop from './components/ScrollToTop'
-import Header from "./components/Header"
+import React, { useState } from 'react';
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ScrollToTop from './components/ScrollToTop';
+import Header from "./components/Header";
 import Assessment from "./components/Assessment"
 import DisplayScore from "./components/DisplayScore"
 
